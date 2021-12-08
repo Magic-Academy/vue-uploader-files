@@ -1,9 +1,11 @@
 <template>
   <div
-    :class="{ 'up-file': styleSwitch }"
+    class="up-file"
+    :class="{ 'up-file-default': styleSwitch }"
     :style="{ backgroundColor: backgroundColor, color: color }"
     @click.self="proposal"
   >
+    <slot name="trigger"></slot>
     <span>{{ text }}</span>
     <input
       type="file"
@@ -54,8 +56,14 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .up-file {
+  font-size: 18px;
+}
+</style>
+
+<style lang="less" scoped>
+.up-file-default {
   width: 232px;
   height: 46px;
   display: flex;
