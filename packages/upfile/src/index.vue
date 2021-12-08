@@ -68,8 +68,8 @@ export default {
   border-radius: 5px;
   box-sizing: border-box;
   cursor: pointer;
-  .file {
-    display: none;
-  }
+}
+.file {
+  display: none;
 }
 </style>
