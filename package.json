@@ -1,6 +1,6 @@
 {
   "name": "vue-uploader-files",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "This is an upload file of vue",
   "main": "lib/vue-uploader-files.umd.min.js",
   "keywords": ["vue-uploader-files","vue","uploader-files","upload"],
